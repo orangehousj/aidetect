@@ -1,0 +1,23 @@
+# 忽略模型文件目录
+best_model/
+hf_models/
+
+# 忽略常见模型文件格式
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# 忽略数据集目录
+data/
+datasets/
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略环境文件夹
+venv/
+.env/
+.conda/
